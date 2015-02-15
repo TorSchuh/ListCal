@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/Dummy"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/grey100"
+        android:clickable="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14dp" />
+    
+    <Button
+        android:id="@+id/DayOfWeek"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/grey100"
+        android:clickable="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/grey700"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/DayOfMonth"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/grey100"
+        android:textColor="@color/grey700"
+        android:clickable="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:id="@+id/Events"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+    
+	    <LinearLayout
+	        android:id="@+id/EventsAM"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingRight="5dp"
+	        android:orientation="horizontal" >	
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/EventsPM"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:paddingRight="5dp"
+	        android:paddingTop="1dp"
+	        android:orientation="horizontal" >
+	
+	    </LinearLayout>
+    
+     </LinearLayout>
+     
+</LinearLayout>

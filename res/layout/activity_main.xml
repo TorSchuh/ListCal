@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.fhbrbg.listcal.controller.MainActivity" >
+
+    <de.fhbrbg.listcal.controller.RowListView
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/grey100"
+        android:cacheColorHint="#00000000"
+        android:scrollingCache="false"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="vertical"
+        android:scrollbarSize="12dp"
+        android:fastScrollEnabled="true"
+        android:animationCache="false"
+        tools:context="de.fhbrbg.listcal.controller.MainActivity"
+        />
+    
+    <TextView 
+        android:id="@+id/DrawOnTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@color/rose" />
+    
+</RelativeLayout>
